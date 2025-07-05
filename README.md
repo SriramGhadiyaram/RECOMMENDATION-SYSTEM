@@ -27,3 +27,15 @@ The recommendation function, recommend(book_name, similarity_score), takes a boo
 While the system works well, a few challenges were encountered. One issue was dealing with books that had very few ratings, which could introduce noise and misleading recommendations. This was mitigated through user and item filtering thresholds. Another challenge was handling missing values in the pivot table, which was addressed by filling them with zeros. Though this allowed for computational efficiency, it could be further improved with advanced imputation techniques like SVD or KNN imputation. Additionally, merging large datasets initially caused memory consumption issues, which were solved by filtering early and minimizing data columns.
 
 In conclusion, the project successfully demonstrates how collaborative filtering can be implemented to recommend books based on user behavior. The system performs well on dense sections of the dataset and provides personalized, content-rich recommendations. With further enhancements like user-based collaborative filtering, matrix factorization, or hybrid modeling with content-based filters, the recommendation engine can be scaled and made more accurate for real-world deployment.
+
+<img width="1111" height="480" alt="Image" src="https://github.com/user-attachments/assets/ce7cb05a-7b4a-453a-ae8e-63319f6801b4" />
+
+<img width="531" height="442" alt="Image" src="https://github.com/user-attachments/assets/163a0e7a-0b4f-44d0-b3f5-5915ca9bb257" />
+
+<img width="839" height="217" alt="Image" src="https://github.com/user-attachments/assets/61ec2254-48af-4882-9198-076aa308477e" />
+
+<img width="398" height="141" alt="Image" src="https://github.com/user-attachments/assets/00922c69-8c06-453c-95f6-6577369e3590" />
+
+<img width="1222" height="352" alt="Image" src="https://github.com/user-attachments/assets/b4fda81e-87fe-49af-8666-0225ee815e0f" />
+
+<img width="613" height="290" alt="Image" src="https://github.com/user-attachments/assets/8bb76d30-2edf-4078-a95d-6d90244154b9" />
